@@ -71,7 +71,7 @@
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
 			<hgroup>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img id="trehuvudgruppen_logotype" src="<?php echo get_stylesheet_directory_uri().'/logotype.png'; ?>" title="<?php bloginfo( 'name' ); ?>" alt="<?php bloginfo( 'name' ).' logotyp.'; ?>"></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img id="trehufvudgruppen_logotype" src="<?php echo get_stylesheet_directory_uri().'/logotype.png'; ?>" title="<?php bloginfo( 'name' ); ?>" alt="<?php bloginfo( 'name' ).' logotyp.'; ?>"></a>
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
 
@@ -116,19 +116,8 @@
 			</a>
 			<?php endif; // end check for removed header image ?>
 
-			<?php
-				// Has the text been hidden?
-				if ( 'blank' == get_header_textcolor() ) :
-			?>
-				<div class="only-search<?php if ( $header_image ) : ?> with-image<?php endif; ?>">
-				<?php get_search_form(); ?>
-				</div>
-			<?php
-				else :
-			?>
-				<?php get_search_form(); ?>
-			<?php endif; ?>
-
+			<a href="http://www.srfkonsult.se/" rel="nofollow"><img id="trehufvudgruppen_affiliate_logotype" src="<?php echo get_stylesheet_directory_uri().'/affiliate-logotype.png'; ?>" title="" alt=""></a>
+			
 			<nav id="access" role="navigation">
 				<h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
 				<?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>

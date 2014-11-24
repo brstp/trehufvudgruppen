@@ -1,7 +1,7 @@
 /*
- Theme Name:     Trehuvudgruppen
+ Theme Name:     Trehufvudgruppen
  Theme URI:      
- Description:    Barntema baserat på Twentyeleven för 3Huvudgruppen
+ Description:    Barntema baserat på Twentyeleven för 3hufvudgruppen
  Author:         Stefan Pettersson
  Author URI:     http://lumano.se
  Template:       twentyeleven
@@ -12,12 +12,25 @@
  
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
+#branding hgroup {
+    margin: 0px 7.6% 0px 0px;
+}
+
 #content img {
 	border: none;
 	padding: 0px;
 }
 
+header #trehufvudgruppen_logotype {
+	width: 25%;
+}
 
-header #trehuvudgruppen_logotype {
-	width:	30%;
+
+img#trehufvudgruppen_affiliate_logotype {
+    position: absolute;
+    top: 2em;
+    right: 5%;
+    text-align: right;
+    width: 22%;
 }
