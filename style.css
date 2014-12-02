@@ -29,9 +29,13 @@ header #trehufvudgruppen_logotype {
 
 
 img#trehufvudgruppen_affiliate_logotype {
-    position: absolute;
-    top: 2em;
-    right: 5%;
-    text-align: right;
-    width: 22%;
+  position: absolute;
+  top: 2em;
+  right: 5%;
+  text-align: right;
+  width: 22%;
+}
+
+#site-generator a {
+  display: none;
 }
