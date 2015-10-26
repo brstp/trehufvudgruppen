@@ -116,7 +116,7 @@
 			</a>
 			<?php endif; // end check for removed header image ?>
 
-			<a href="http://www.srfkonsult.se/" rel="nofollow"><img id="trehufvudgruppen_affiliate_logotype" src="<?php echo get_stylesheet_directory_uri().'/affiliate-logotype.png'; ?>" title="" alt=""></a>
+			<a href="http://www.srfkonsult.se/" rel="nofollow"><img id="trehufvudgruppen_affiliate_logotype" src="<?php echo get_stylesheet_directory_uri().'/srf_konsulterna.jpg'; ?>" title="" alt=""></a>
 			
 			<nav id="access" role="navigation">
 				<h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
